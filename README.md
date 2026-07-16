@@ -93,9 +93,8 @@ mysql -u root -p < database/schema.sql
 This creates the `traffic_exam_db` database with all tables, sample questions, and a default admin user.
 
 **Default Admin Credentials:**
-- Phone: ``
-- Password: ``
-> ⚠️ Change admin password immediately after first login!
+Development credentials are created automatically when the seed data is imported.
+Change the administrator password immediately after first login.
 
 ---
 
