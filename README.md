@@ -56,6 +56,24 @@ traffic-law-app/
 
 ---
 
+## 🏗️ System Architecture
+
+```
+Vue 3 Frontend
+       │
+       ▼
+REST API (Express.js)
+       │
+       ▼
+MySQL Database
+       │
+       ├── Users
+       ├── Questions
+       ├── Exams
+       ├── Answers
+       └── Payments
+```
+
 ## 🚀 Setup Instructions
 
 ### 1. Prerequisites
@@ -201,6 +219,25 @@ npm run build
 ```
 
 Recommended: Use **nginx** as reverse proxy, **PM2** for Node.js process management, and **Let's Encrypt** for SSL.
+
+---
+
+## 🔒 Security Notes
+
+- Passwords are hashed using bcrypt.
+- JWT tokens are required for protected routes.
+- Admin endpoints require administrator privileges.
+- Payment credentials are stored in environment variables and never committed to source control.
+
+---
+
+## 🚀 Future Improvements
+
+- Real MTN MoMo production integration
+- Email and SMS notifications
+- Exam analytics and reporting
+- AI-assisted question recommendations
+- Cloud deployment with Docker and CI/CD
 
 ---
 
