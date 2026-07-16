@@ -3,7 +3,17 @@
 A full-stack web application for Rwanda traffic law exam preparation and certification.
 Built with **Node.js + Express + MySQL** (backend) and **Vue 3 + Vite + TailwindCSS** (frontend).
 
----
+## Screenshots
+![alt text](Screenshots/homePage.PNG)
+![alt text](Screenshots/loginPage.PNG)
+![alt text](Screenshots/adminDashboardPage.PNG)
+![alt text](Screenshots/paymentPage.PNG)
+![alt text](Screenshots/payPage.PNG)
+![alt text](Screenshots/questionsApploadPage.PNG)
+![alt text](Screenshots/questionsPage.PNG)
+![alt text](Screenshots/startExamPage.PNG)
+![alt text](Screenshots/usersPage.PNG)
+![alt text](Screenshots/momoPayAPI-Loading.PNG)
 
 ## ✨ Features
 
