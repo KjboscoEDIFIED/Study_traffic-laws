@@ -93,9 +93,8 @@ mysql -u root -p < database/schema.sql
 This creates the `traffic_exam_db` database with all tables, sample questions, and a default admin user.
 
 **Default Admin Credentials:**
-- Phone: `0780000000`
-- Password: `Admin@123`
-
+- Phone: ``
+- Password: ``
 > ⚠️ Change admin password immediately after first login!
 
 ---
